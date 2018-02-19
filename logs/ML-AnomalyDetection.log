@@ -1,0 +1,17 @@
+[INFO][localhost-startStop-1][2018-02-1922:05:01][org.springframework.web.context.ContextLoader]-Root WebApplicationContext: initialization started
+[INFO][localhost-startStop-1][2018-02-1922:05:02][org.springframework.context.support.AbstractApplicationContext]-Refreshing Root WebApplicationContext: startup date [Mon Feb 19 22:05:02 CST 2018]; root of context hierarchy
+[INFO][localhost-startStop-1][2018-02-1922:05:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-Loading XML bean definitions from URL [file:/home/hadoop/IdeaProjects/ML-AnomalyDetection/target/classes/spring-mybatis.xml]
+[WARN][localhost-startStop-1][2018-02-1922:05:05][org.mybatis.spring.mapper.ClassPathMapperScanner]-No MyBatis mapper was found in '[edu.zju.cst.AnomalyDetection..*.dao]' package. Please check your configuration.
+[INFO][localhost-startStop-1][2018-02-1922:05:06][org.springframework.core.io.support.PropertiesLoaderSupport]-Loading properties file from URL [file:/home/hadoop/IdeaProjects/ML-AnomalyDetection/target/classes/jdbc.properties]
+[INFO][localhost-startStop-1][2018-02-1922:05:06][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][localhost-startStop-1][2018-02-1922:05:08][com.mchange.v2.log.MLog]-MLog clients using log4j logging.
+[INFO][localhost-startStop-1][2018-02-1922:05:09][com.mchange.v2.c3p0.C3P0Registry]-Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+[INFO][localhost-startStop-1][2018-02-1922:05:11][org.springframework.web.context.ContextLoader]-Root WebApplicationContext: initialization completed in 10815 ms
+[INFO][localhost-startStop-1][2018-02-1922:05:12][org.springframework.web.servlet.FrameworkServlet]-FrameworkServlet 'dispatcher': initialization started
+[INFO][localhost-startStop-1][2018-02-1922:05:12][org.springframework.context.support.AbstractApplicationContext]-Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Feb 19 22:05:12 CST 2018]; parent: Root WebApplicationContext
+[INFO][localhost-startStop-1][2018-02-1922:05:12][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-Loading XML bean definitions from URL [file:/home/hadoop/IdeaProjects/ML-AnomalyDetection/target/classes/spring-mvc.xml]
+[INFO][localhost-startStop-1][2018-02-1922:05:15][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][localhost-startStop-1][2018-02-1922:05:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Feb 19 22:05:12 CST 2018]; parent: Root WebApplicationContext
+[INFO][localhost-startStop-1][2018-02-1922:05:23][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Feb 19 22:05:12 CST 2018]; parent: Root WebApplicationContext
+[INFO][localhost-startStop-1][2018-02-1922:05:24][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping]-Default mapping to handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[INFO][localhost-startStop-1][2018-02-1922:05:25][org.springframework.web.servlet.FrameworkServlet]-FrameworkServlet 'dispatcher': initialization completed in 12501 ms
