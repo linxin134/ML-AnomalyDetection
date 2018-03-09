@@ -1,4 +1,9 @@
 package edu.zju.cst.AnomalyDetection.service;
 
-public class DatabaseService {
+import edu.zju.cst.AnomalyDetection.model.Database;
+
+public interface DatabaseService {
+
+    public abstract void GetDataFromDatabase(Database database);
+
 }

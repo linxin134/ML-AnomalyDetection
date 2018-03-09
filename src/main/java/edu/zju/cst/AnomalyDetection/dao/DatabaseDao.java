@@ -1,4 +1,8 @@
 package edu.zju.cst.AnomalyDetection.dao;
 
-public class DatabaseDao {
+import edu.zju.cst.AnomalyDetection.model.Database;
+
+public interface DatabaseDao {
+
+    public void GetDataFromDatabase(Database database);
 }
